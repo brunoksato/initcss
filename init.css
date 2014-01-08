@@ -23,4 +23,8 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
     display: block;
 }
 
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after { content: ""; content: none; }
 
